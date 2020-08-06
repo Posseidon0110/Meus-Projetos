@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador De Rotina</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="Rotina()">
+    <div class="container">
+        <div class="texto">
+                <h1 id="HoraAtual">Agora são</h1>
+                <h1 id="Tarefa">Agora você está:</h1>
+        </div>
+        <div class="change">
+            <h2>Mudar Tarefa</h2>
+            <form action="">
+                <input type="text" placeholder="Nome da Tarefa" id="NomeTarefa">
+                <input type="number" min="0" max="23" placeholder="Hora da Tarefa" id="HoraTarefa">
+                <div><button type="button" id="btn">Mudar Tarefa</button></div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
