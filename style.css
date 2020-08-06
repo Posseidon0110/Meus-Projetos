@@ -23,24 +23,11 @@ body{
 
 }
 
-@media(max-width: 550px){
-    .container{
-        width: 100%;
-        height: 90%;
-        border-radius: 0;
-        left: 0%;
-        top: 5%;
-    }
-}
-
 .texto {
 
     padding: 40px 10px;
     margin: 0px auto;
-}
-
-#Tarefa{
-    margin-top: 15px;
+    line-height: 60px;
 }
 
 .change {
@@ -97,4 +84,18 @@ button:hover{
 
 button:active{
     background-color: rgb(45, 143, 21);
+}
+
+@media (min-width: 700px){
+    input{
+        display: inline;
+    }
+    input[type=text]{
+        width: 25%;
+    }
+    input[type=number]{
+        width: 15%;
+        margin-left: 20px;
+        min-width: 100px;
+    }
 }

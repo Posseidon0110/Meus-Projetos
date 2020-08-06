@@ -21,7 +21,7 @@ function Rotina(){
 
     HoraA.innerHTML = `Agora são ${hora} horas e ${minutos} minutos `
     
-    Tarefa.innerHTML = `Você precisa ir ${routine[hora].toUpperCase()} `
+    Tarefa.innerHTML = routine[hora].toUpperCase()
 
     setTimeout("Rotina()",1000)
 }
@@ -35,6 +35,7 @@ btn.addEventListener('click',() =>{
             routine[horario.value] = nome.value
             nome.value = ''
             horario.value = ''
+            console.log(routine)
         }
     }
     localStorage.setItem('rotinas', routine)
