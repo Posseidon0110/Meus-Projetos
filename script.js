@@ -6,9 +6,9 @@ if(localStorage.getItem('rotinas')){
 else{
     routine = [
         'Dormir','Dormir','Dormir','Dormir','Dormir','Dormir',
-        'Dormir','Livre','Livre','Estudar','Estudar','Livre',
-        'Livre','Livre','Livre','Estudar','Estudar','Livre',
-        'Livre','Livre','Livre','Estudar','Estudar','Livre'
+        'Dormir','Descansar','Descansar','Estudar','Estudar','Descansar',
+        'Descansar','Descansar','Descansar','Estudar','Estudar','Descansar',
+        'Descansar','Descansar','Descansar','Estudar','Estudar','Descansar'
     ]
 }
 
